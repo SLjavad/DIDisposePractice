@@ -8,7 +8,7 @@
         }
         public void Dispose()
         {
-            Console.WriteLine("Disposing Service B ...");
+            Console.WriteLine("Disposing Service B ..."); // set breakpoint here and check call stack in the Call Stack tab.
         }
 
         public void DoTaskB()

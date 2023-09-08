@@ -10,7 +10,7 @@
             this.serviceB = serviceB;
         }
 
-        public void Dispose() => Console.WriteLine("Disposing service A....");
+        public void Dispose() => Console.WriteLine("Disposing service A...."); // set breakpoint here and check call stack in the Call Stack tab.
 
         public void DoTaskA()
         {
